@@ -1,3 +1,7 @@
+//Zaid Javaid
+//Mobile Development
+//Assignment 1
+
 package com.example.zaid.mobileassignment1;
 
 import android.support.v7.app.AppCompatActivity;
