@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
         Toast.makeText(MainActivity.this, "1", Toast.LENGTH_LONG).show();
         VideoView videoView = (VideoView) findViewById(R.id.rickroll); //create video view
-        videoView.setVideoPath("android.resource://" + getPackageName() + "/" + R.raw.troll); //setting path
+        videoView.setVideoPath("android.resource://" + getPackageName() + "/" + R.raw.rickroll); //setting path
 
         videoView.start();
     }
