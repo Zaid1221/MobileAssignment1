@@ -19,12 +19,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void onClick(View view){
+    public void onClick(View view){     //this is the function for when the button gets clicked
 
-        Toast.makeText(MainActivity.this, "1", Toast.LENGTH_LONG).show();
+        Toast.makeText(MainActivity.this, "1", Toast.LENGTH_LONG).show();   //makes the toast
         VideoView videoView = (VideoView) findViewById(R.id.rickroll); //create video view
         videoView.setVideoPath("android.resource://" + getPackageName() + "/" + R.raw.rickroll); //setting path
 
-        videoView.start();
+        videoView.start();  //starts the video 
     }
 }
